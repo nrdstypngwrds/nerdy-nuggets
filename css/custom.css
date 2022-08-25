@@ -64,7 +64,7 @@ header {
 .nav-link:visited,
 .dropdown-item:visited,
 .link:visited {
-  color: #666;
+  color: #444;
   background-color: transparent;
 }
 .footer-link:visited {
