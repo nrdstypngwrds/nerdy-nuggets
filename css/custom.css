@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+html,
+body {
+  font-family: 'Space Grotesk', monospace;
+}
+header {
+  background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  -moz-backdrop-filter: blur(8px);
+}
+.sans {
+
+  font-family: 'IBM Plex Sans', monospace;
+}
+.lime {
+  color: #09ff03;
+}
+.nav-link,
+.dropdown-item,
+.link {
+  color: #111;
+  transition: 0.3s ease-in-out;
+}
+#searchIcon {
+  color: #2d008e;
+  transition: 0.3s ease-in-out;
+}
+.footer-link {
+  color: #111;
+  transition: 0.3s ease-in-out;
+  font-size: 0.8rem;
+  font-weight: light;
+  text-transform: uppercase;
+}
+.nav-link:link,
+.dropdown-item:link,
+.link:link {
+  color: #111;
+  transition: 0.3s ease-in-out;
+}
+.footer-link:link {
+  color: #111;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+#searchIcon:link {
+  color: #2d008e;
+}
+.nav-link:active,
+.dropdown-item:active,
+.link:active {
+  color: #5e9918;
+  background-color: transparent;
+}
+.footer-link:active {
+  color: #5e9918;
+}
+#searchIcon:active {
+  color: #ff6000;
+}
+.nav-link:visited,
+.dropdown-item:visited,
+.link:visited {
+  color: #666;
+  background-color: transparent;
+}
+.footer-link:visited {
+  color: #111;
+}
+#searchIcon:visited {
+  color: #111;
+}
+.nav-link:hover,
+.dropdown-item:hover,
+.link:hover {
+  color: #5e9918;
+  background-color: transparent;
+}
+.footer-link:hover {
+  color: #5e9918;
+}
+#searchIcon:hover {
+  color: #ff6000;
+}
+.nav-link:focus,
+.dropdown-item:focus,
+.link:focus {
+  color: #ff6000;
+  background-color: transparent;
+}
+.footer-link:focus {
+  color: #ff6000;
+}
+.green {
+  color: #5e9918;
+}
+.bg-green {
+  background-color: #5e9918;
+}
+.accent {
+  color: #ff6000;
+}
+.bg-accent {
+  background-color: #ff6000;
+}
+.blue {
+  color: #2d008e;
+}
+.bg-blue {
+  background-color: #2d008e;
+}
+#navSearch:focus {
+  outline: .0625rem solid #ff6000 !important;
+  border: .0625rem solid #aaa;
+  background-color: white;
+  color: #111;
+}

@@ -1,0 +1,6 @@
+nerdy-nuggets.com SFTP
+Server: access921230833.webspace-data.io
+Protocol: SFTP + SSH
+Port: 22
+User: u109262742
+Password: bewqez-datzen-cunQy3
