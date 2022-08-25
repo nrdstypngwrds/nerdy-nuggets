@@ -118,3 +118,11 @@ header {
   background-color: white;
   color: #111;
 }
+.badge-blue {
+  background-color: rgb(65, 105, 225, 0.3);
+  color: #200165;
+}
+.badge-green {
+  background-color: rgb(76, 187, 23, 0.3);
+  color: #2a440b;
+}
